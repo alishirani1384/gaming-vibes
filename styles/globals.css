@@ -38,6 +38,9 @@ nav li {
   display: inline-block;
   margin-left: 16px;
 }
+nav li.bold{
+  font-weight: 600;
+}
 nav li.btn {
   padding: 10px 16px;
   border: 2px solid var(--primary);
@@ -49,6 +52,18 @@ nav li.btn {
 nav li.btn:hover {
   color: white;
   background: var(--primary);
+}
+nav li.red {
+  padding: 10px 16px;
+  border: 2px solid red;
+  border-radius: 30px;
+  font-weight: 600;
+  color: red;
+  cursor: pointer;
+}
+nav li.red:hover {
+  color: white;
+  background: red;
 }
 
 /* banner */
